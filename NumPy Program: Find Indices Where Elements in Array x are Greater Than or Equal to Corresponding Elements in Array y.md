@@ -12,10 +12,29 @@ To write a Python program using **NumPy** that finds the indices where elements 
 4. **Find Indices**: Use `np.where()` to get the indices where the conditions `x >= y` are satisfied.
 5. **Print Indices**: Print the indices where the condition holds true.
 
-## 🧾 Program
+## 🧾 Program:
+```
+# Program to find indices where x >= y
 
-Add code here
+import numpy as np
 
-## Output
+# Define arrays
+x = np.array([1, 3, 5, 7, 9])
+y = np.array([2, 3, 4, 8, 9])
 
-## Result
+# Find indices
+indices = np.where(x >= y)
+
+# Output
+print("Array x:", x)
+print("Array y:", y)
+print("Indices where x >= y:", indices)
+```
+
+## Output:
+
+<img width="543" height="232" alt="image" src="https://github.com/user-attachments/assets/cf546274-eb1e-476c-aed6-e5ead089fbfa" />
+
+## Result:
+
+Thus, the Python program using NumPy to find indices where elements of array x are greater than or equal to elements of array y was successfully executed and verified.
